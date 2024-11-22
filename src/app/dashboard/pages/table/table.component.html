@@ -1,0 +1,31 @@
+<div class="p-grid"> 
+    <div class="p-col-12 p-md-4"> 
+        <p-card header="Actions">
+            <button pButton type="button" label="Nuevo" icon="pi pi-file-plus" severity="secondary" (click)="open()"></button> 
+        </p-card> 
+    </div> 
+    <div class="p-col-12 p-md-4"> 
+        <p-card header="Products"> 
+            <p-table [value]="products"> 
+                <ng-template pTemplate="header"> 
+                    <tr> 
+                        <th>ID</th> 
+                        <th>Name</th> 
+                        <th>Category</th>
+                         <th>Price</th> 
+                        </tr> 
+                </ng-template> 
+                <ng-template pTemplate="body" let-product> 
+                    <tr> 
+                        <td>{{product.id}}</td> 
+                        <td>{{product.name}}</td> 
+                        <td>{{product.category}}</td> 
+                        <td>{{product.price}}</td> 
+                    </tr> 
+                </ng-template> 
+            </p-table> 
+        </p-card> 
+    </div>
+</div>
+
+<!-- <shared-modal #content ></shared-modal> -->

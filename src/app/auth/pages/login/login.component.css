@@ -1,0 +1,21 @@
+.form-contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-input{
+    margin: 1rem auto;
+}
+
+.card-login{
+    width: 35%;
+    height: 60%;
+    border-radius: 5rem;
+}
+
+p-card-body{
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+}

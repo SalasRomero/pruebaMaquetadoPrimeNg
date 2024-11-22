@@ -1,0 +1,6 @@
+@media screen and (max-width: 768px) { .p-menubar { flex-direction: column; } .p-menubar-start, .p-menubar-end { width: 100%; text-align: center; } }
+
+.contenedor{
+ width: 90%;
+ margin:1rem auto;
+}
